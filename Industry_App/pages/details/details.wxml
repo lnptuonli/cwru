@@ -1,0 +1,9 @@
+<view>
+  <image style="width:100%;" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4142611671,3002432171&fm=11&gp=0.jpg"></image>
+
+  <view>当前状况：运行中</view>
+  <view>设备信息：美国铁姆肯轴承</view>
+  <view>型号：OFOG-d</view>
+  <view>厂商：德国OFOG</view>
+  <button bindtap="jiance" class="btn">故障检测</button>
+</view>

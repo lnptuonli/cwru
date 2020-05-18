@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "故障明细",
+  "usingComponents": {
+    "ec-canvas": "../../ec-canvas/ec-canvas"
+  }
+}

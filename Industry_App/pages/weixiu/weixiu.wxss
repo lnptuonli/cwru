@@ -1,0 +1,22 @@
+.item_zhou{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100rpx;
+
+
+}
+.item_zhou image{
+  width: 170rpx;
+  height: 170rpx
+}
+.sub_item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  font-size: 50rpx;
+}

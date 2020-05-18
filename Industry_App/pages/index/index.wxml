@@ -1,0 +1,33 @@
+<swiper style="margin-bottom=50rpx"class="swipers" indicator-dots="true" interval="2000" autoplay="{{autoplay}}" style="height:360rpx" current="{{currentSwiper}}">
+  <block wx:for="{{listRotation}}" wx:key='item'>
+    <swiper-item>
+      <image bindload='imageLoad' bindtap='bannerClick' data-id="{{item.id}}" style=" width:100%; height:360rpx" src="{{item.pic}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+
+
+<view class="base_item">
+  <view class="item">
+    <image bindtap="jiance" src="../../images/jiance.png"></image>
+    <text>设备检测</text>
+  </view>
+  <view class="item">
+    <image bindtap="yujing" src="../../images/yujing.png"></image>
+    <text>预警信息</text>
+  </view>
+
+
+</view>
+<view  style="margin-top:50rpx" class="base_item">
+  <view class="item">
+    <image  bindtap="yunwei"  src="../../images/baogao.png"></image>
+    <text>生成报告</text>
+  </view>
+  <view class="item">
+    <image bindtap="lishi" src="../../images/lishi.png"></image>
+    <text>历史记录</text>
+  </view>
+
+</view>

@@ -1,0 +1,36 @@
+<view class="content">
+	<!--images文件夹下的background.jpg文件-->
+	<image class='background' src="../../images/background.jpg" mode="aspectFill"></image>
+	<!--页面其它部分-->
+</view>
+
+
+<view class="parent">
+<view class="box">
+<view class="rep">
+  <view style="font-size: 60rpx">设备报告</view>
+  <text>\n</text>
+   <text>\n</text> 
+   <text>\n</text>
+    <text>\n</text>
+  <view>工厂共有4台机器</view>
+   <text>\n</text>
+  <view>出故障1台</view>
+   <text>\n</text>
+  <view>故障率25%</view>
+ <text>\n</text>
+ <text>\n</text>
+ <text>\n</text>
+ <text>\n</text>
+ <text>\n</text>
+ <text>\n</text>
+ <text>\n</text>
+ <text>\n</text>
+ <text>\n</text>
+</view>
+</view>
+  <view class="lx">
+    <button bindtap="zg" class="btn1">联系主管</button>
+    <button bindtap="bz" class="btn1">联系部长</button>
+  </view>
+</view>

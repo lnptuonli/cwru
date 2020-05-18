@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/weixiu/weixiu",
+    "pages/yunwei/yunwei",
+    "pages/details/details",
+    "pages/result/result"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#D6D5B7",
+    "navigationBarTitleText": "工业小程序",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"/images/站酷_13.png",
+        "selectedIconPath":"/images/站酷_29.png"
+      },
+      {
+        "pagePath": "pages/weixiu/weixiu",
+        "text": "设备",
+        "iconPath": "/images/站酷_17.png",
+        "selectedIconPath": "/images/站酷_33.png"
+      },
+      {
+        "pagePath": "pages/yunwei/yunwei",
+        "text": "运维",
+        "iconPath": "/images/站酷_11.png",
+        "selectedIconPath": "/images/站酷_27.png"
+      }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,12 @@
+<view class="content">
+  <text>检测结果：{{state}}</text>
+  <text style="margin-top:20rpx">准确率：{{status}}</text>
+  <view class='echart_wrap'>
+     <ec-canvas id="mychart" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>
+  </view>
+</view>
+  <view class="btn_">
+    <button data-id="{{num}}" bindtap="res">刷新</button>
+    <button bindtap="cz">重置</button>
+     <button  bindtap="black">首页</button>
+  </view>

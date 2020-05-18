@@ -1,0 +1,27 @@
+.rep {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent {
+  margin-top: 0rpx;
+}
+
+.lx {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 30rpx;
+}
+
+.btn1 {
+  width: 40%;
+  margin: 20rpx;
+  background-color: rgb(190, 231, 233);
+  color: rgb(221, 22, 22);
+  border-radius: 98rpx; 
+}

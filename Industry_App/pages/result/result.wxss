@@ -1,0 +1,32 @@
+.content {
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.echart_wrap{
+  margin-top: 50rpx;
+  width: 100%;
+  height: 650rpx;
+}
+ec-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.btn_ {
+  width: 100%;
+  position: fixed;
+  bottom: 30rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn_ button {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}

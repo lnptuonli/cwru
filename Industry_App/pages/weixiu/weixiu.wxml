@@ -1,0 +1,23 @@
+
+<view class="item_zhou" >
+  <view class="sub_item">
+    <image bindtap="zhoucheng1"  src="../../images/zhouc.png"></image>
+    <view class="title">轴承1</view>
+  </view>
+  <view class="sub_item">
+    <image  bindtap="zhoucheng2"  src="../../images/zhouc.png"></image>
+    <view class="title">轴承2</view>
+  </view>
+</view>
+
+<view class="item_zhou" >
+  <view class="sub_item">
+    <image bindtap="zhoucheng3"   src="../../images/zhouc.png"></image>
+    <view class="title">轴承3</view>
+  </view>
+  <view class="sub_item">
+    <image  bindtap="zhoucheng4"  src="../../images/zhouc.png"></image>
+    <view class="title">轴承4</view>
+  </view>
+</view>
+
