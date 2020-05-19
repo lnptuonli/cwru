@@ -29,12 +29,12 @@ v1.0.0
 ## 部署说明
 下载代码压缩包并解压，打开微信开发者工具，点击项目-->导入项目。AppID可以输入自己的或者使用测试号。
 
-![导入项目](cwru/Industry_App/导入项目.png)
+![导入项目](https://github.com/1003721463/cwru/blob/master/Industry_App/%E5%AF%BC%E5%85%A5%E9%A1%B9%E7%9B%AE.png)
 
 ## 运行说明
 导入项目之后，点击编译。
 
-![编译](cwru/Industry_App/编译.png)
+![编译](https://github.com/1003721463/cwru/blob/master/Industry_App/%E7%BC%96%E8%AF%91.png)
 
 ## 注意事项
 1.解压路径尽量不要有英文，注意图片相对路径是否正确，否则无法正常显示图片。
